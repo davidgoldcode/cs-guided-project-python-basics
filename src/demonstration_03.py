@@ -8,6 +8,9 @@ Examples:
 - string_int("1000") ➞ 1000
 - string_int("12") ➞ 12
 """
-def string_int(txt):
-    # Your code here
 
+# take the string input & convert to integer
+
+
+def string_int(txt: str) -> int:
+    return int(txt)
