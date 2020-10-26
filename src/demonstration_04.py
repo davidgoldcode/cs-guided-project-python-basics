@@ -13,4 +13,13 @@ Examples:
 
 def find_perimeter(length, width):
     # Your code here
-    return length * width
+    # take length & width integers, treat them as the dimensions
+    # of an imaginary rect
+    # how do we calc perimeter from length & width
+    # return the perim
+    return (length + width) * 2
+
+
+print(find_perimeter(6, 7))
+print(find_perimeter(20, 10))
+print(find_perimeter(2, 9))
